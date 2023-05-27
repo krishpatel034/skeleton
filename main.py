@@ -23,8 +23,8 @@ def main():
 
     
 
-    print("Epochs:", constants.EPOCHS)
-    print("Batch size:", constants.BATCH_SIZE)
+    #print("Epochs:", constants.EPOCHS)
+    #print("Batch size:", constants.BATCH_SIZE)
 
     # Initalize dataset and model. Then train the model!
     train_dataset = StartingDataset('../data/train.csv', transform=torchvision.transforms.ToTensor())
